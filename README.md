@@ -1,9 +1,7 @@
 # Highly-Available-Azure-Web-Tier
 Build and Troubleshoot a Highly Available Azure Web Tier using infrastructure as code.
-Highly Available Azure Web Infrastructure. DELETE ALL RESOURCES AFTER EXERCISE COMPLETE>
+Highly Available Azure Web Infrastructure. DELETE ALL RESOURCES AFTER EXERCISE COMPLETE
 -------------------------------------------
-
-[Architecture Diagram]
 
 About
 -----
