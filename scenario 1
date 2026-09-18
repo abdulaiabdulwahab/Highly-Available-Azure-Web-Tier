@@ -1,0 +1,11 @@
+Catches many deployment problems before resources are changed.
+
+Before creating infrastructure:
+
+az deployment group validate \
+  --resource-group "$RG2" \
+  --template-file infra/main.bicep \
+  --parameters sshPublicKey="$SSH_KEY"
+
+This catches many deployment problems before resources are changed.
+Azure currently exposes validate, what-if, create, deployment history, and other ARM deployment operations through az deployment group
